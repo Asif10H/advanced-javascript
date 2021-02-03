@@ -2,13 +2,13 @@
 //false
 // 0
 //""
-// undefine
+// undefined
 //null
 //NaN
 //Truthy:
 //"0", " ", [], {}
 
-let name = 0;
+let name = "0";
 console.log(name);
 if(name){
     console.log("condition is true");
